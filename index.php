@@ -55,7 +55,7 @@ if (isset($_GET['remove'])) {
                     <td><?php echo $product_name; ?></td>
                     <td><?php echo $product_price; ?></td>
                     <td id="actions">
-                        <a href="./?edit=<?php echo $product_id; ?>">
+                        <a href="pages/edit.php?edit=<?php echo $product_id; ?>">
                             <button>Edit</button>
                         </a>
                         <a href="./?remove=<?php echo $product_id; ?>">
